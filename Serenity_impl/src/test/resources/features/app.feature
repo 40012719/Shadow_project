@@ -43,7 +43,7 @@ Feature: I want to test the app
     And I need to quit
 
     Examples: 
-      | emailid       | password |
+      | emailid       | password|
       | dsp@gmail.com | dsp@123  |
 
   Scenario Outline: Login Functionality with remember me[-ve test case-5]
@@ -54,6 +54,9 @@ Feature: I want to test the app
     And I want to remember credentials
     And I want to click on login button
     And I need to quit
+
+
+
 
     Examples: 
       | emailid       | password |
