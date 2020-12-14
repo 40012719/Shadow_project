@@ -33,6 +33,22 @@ public class app_serenitystep {
 		loginpage.rememberme();
 		
 	}
-	
-
+	@Step
+	public void clickeye() throws InterruptedException 
+	{
+		loginpage.eyeclick();
+		
+	}
+	@Step
+	public void forgetpassword() throws InterruptedException 
+	{
+		loginpage.passwordforget();
+		
+	}
+	@Step
+	public void quit() throws InterruptedException 
+	{
+		loginpage.quit();
+		
+	}
 }
